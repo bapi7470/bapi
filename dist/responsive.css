@@ -1,0 +1,216 @@
+@media (max-width: 284px) {
+    .Service_info h2 {
+        font-size: 1.5rem;
+        
+    }
+    
+.Service_info p{
+  
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.top {
+    width: 40px;
+    height: 40px;
+}
+
+ }
+
+
+@media (max-width: 259.98px) { 
+
+    
+element.style {
+}
+.home {
+    min-height: 348px;
+}
+    
+    .home_htxt h2 {
+        margin-top: 7rem;
+        font-size: 3rem;  
+    }
+    .home_htxt p {
+        font-size: 1.3rem;
+    }
+    .home_htxt p span{
+        font-size: 1.3rem;
+    }
+    .cube{
+        width: 70px;
+        height: 70px;
+    }
+    
+    
+    .cube div span{
+     transform: rotateY(calc(90deg * var(--i))) translateZ(35px);    
+    }
+    
+
+    .cubetop{
+        transform: rotateX(90deg) translateZ(35px);
+    }
+    .cubetop::before{
+        transform:translateZ(-100px);
+    }
+
+
+    .cal_info {
+        width: 180px;
+        min-height: 207px;
+    }
+    input[type="button"] {
+        background-color: rgb(0, 0, 0);
+        width: 35px;
+        height: 37px;
+ }
+
+ footer div p{
+    font-size:1rem;
+    }
+ 
+ 
+}
+
+
+
+
+
+/* `xs` returns only a ruleset and no media query */
+@media (min-width: 260px) and (max-width: 313.99px) { 
+
+    .top {
+        width: 40px;
+        height: 40px;
+    }
+    
+
+    .home {
+        min-height: 549px;
+    }
+    .home_htxt h2 {
+        font-size: 4rem;  
+        margin-top: 5rem;
+    }
+
+    .home_htxt p {
+        font-size: 1.7rem;
+    }
+    .home_htxt p span{
+        font-size: 1.7rem;
+    }
+
+        
+
+
+    .cube{
+        width: 100px;
+        height: 100px;
+    }
+    
+    
+    .cube div span{
+     transform: rotateY(calc(90deg * var(--i))) translateZ(50px);    
+    }
+    
+
+    .cubetop{
+        transform: rotateX(90deg) translateZ(50px);
+    }
+    .cubetop::before{
+        transform:translateZ(-200px);
+    }
+
+
+
+    .cal_info {
+        width: 180px;
+        min-height: 207px;
+    }
+    input[type="button"] {
+        background-color: rgb(0, 0, 0);
+        width: 35px;
+        height: 37px;
+    }
+
+    footer div p{
+        font-size:1rem;
+    }
+
+
+
+
+
+
+
+ }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (min-width: 314px) and (max-width: 577.98px) { 
+   
+    .top {
+        width: 50px;
+        height: 50px;
+    }
+    
+   
+    .home_htxt h2 {
+        margin-top: 06rem;
+            }
+
+    .cube{
+        width: 150px;
+        height: 150px;
+    }
+ .cube div span{
+     transform: rotateY(calc(90deg * var(--i))) translateZ(75px);    
+    }
+    
+
+    .cubetop{
+        transform: rotateX(90deg) translateZ(75px);
+    }
+    .cubetop::before{
+        transform:translateZ(-200px);
+    }
+
+    footer div p{
+        font-size:1.3rem;
+        }
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 578px) and (max-width: 767.99px) { 
+
+.home{
+    min-height: 854px;
+}
+    .home_htxt h2 {
+margin-top: 6rem;
+    }
+
+
+ }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+.Nav{
+    display: block;
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ 
+ }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+ }
+
+ @media (min-width: 578px)  { 
+    footer div p{
+        font-size:1.5rem;
+        }
+}
